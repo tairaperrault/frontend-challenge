@@ -1,0 +1,132 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+  color: #333;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  letter-spacing: .05em;
+  margin: auto;
+  margin-top: 50px;
+  width: 376px;
+}
+
+
+/* type styling */
+
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+   line-height: 140%;
+}
+
+
+/* header styling */
+
+header {
+  background-color: #FFAD0D;
+  color: #ffffff;
+  height: 200px;
+}
+
+.status-bar {
+  padding: 4px 0px 0px 0px;
+  width: 97%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chevron-back {
+  float: left;
+  padding: 20px 0px 0px 20px;
+}
+
+.bus-station {
+  float: left;
+  padding: 20px 0px 0px 45px;
+  text-align: center;
+  width: 270px;
+}
+
+.more {
+  float: right;
+  position: absolute;
+  padding: 20px 30px 0px 35px;
+}
+
+.station {
+  float: left;
+  padding: 38px 0px 0px 0px;
+}
+
+.star-favorite {
+  float: right;
+  padding: 13px 8px 0px 0px;
+}
+
+.id {
+  float: left;
+  padding: 10px 0px 0px 35px;
+  width: 270px;
+}
+
+
+/* schedule styling */
+
+.schedule {
+  background-color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.direction {
+  padding: 20px 4px 5px 20px;
+}
+
+.bus {
+  padding: 17px 0px 0px 20px;
+  height: 65px;
+  border-bottom: .75px solid #BDBDBD;
+}
+
+
+.number {
+  border-radius: 12px;
+  background-color: #FFAD0D;
+  height: 30px;
+  width: 55px;
+  color: #ffffff;
+  text-align: center;
+  padding: 6px 0px 0px 0px;
+  position: absolute;
+
+}
+
+.destination {
+  padding: 0px 0px 0px 70px;
+  text-align: left;
+  position: absolute;
+}
+
+.time {
+    padding: 0px 0px 0px 235px;
+    position: absolute;
+}
+
+.forward {
+    padding: 0px 0px 0px 335px;
+}
