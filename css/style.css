@@ -39,9 +39,13 @@ h4 {
 
 header {
   background-color: #FFAD0D;
+  background-image: url("images/map.png");
   color: #ffffff;
+  width: 376px;
   height: 200px;
-}
+  opacity: .95;
+  }
+
 
 .status-bar {
   padding: 4px 0px 0px 0px;
