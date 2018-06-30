@@ -31,7 +31,7 @@ h3 {
 
 h4 {
   font-size: 16px;
-   line-height: 140%;
+   line-height: 120%;
 }
 
 
@@ -39,13 +39,12 @@ h4 {
 
 header {
   background-color: #FFAD0D;
-  background-image: url("images/map.png");
+  background-image: url("../images/map.png");
   color: #ffffff;
   width: 376px;
   height: 200px;
   opacity: .95;
   }
-
 
 .status-bar {
   padding: 4px 0px 0px 0px;
@@ -69,13 +68,14 @@ header {
 
 .more {
   float: right;
-  position: absolute;
   padding: 20px 30px 0px 35px;
+  position: absolute;
 }
 
 .station {
   float: left;
   padding: 38px 0px 0px 0px;
+  text-align: left;
 }
 
 .star-favorite {
@@ -127,10 +127,10 @@ header {
 }
 
 .time {
-    padding: 0px 0px 0px 235px;
+    padding: 1px 0px 0px 228px;
     position: absolute;
 }
 
 .forward {
-    padding: 0px 0px 0px 335px;
+    padding: 5px 0px 0px 315px;
 }
