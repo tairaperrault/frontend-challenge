@@ -12,7 +12,6 @@ body {
   width: 376px;
 }
 
-
 /* type styling */
 
 h1 {
@@ -26,12 +25,14 @@ h2 {
 }
 
 h3 {
+  font-weight: 400;
   font-size: 18px;
 }
 
 h4 {
+  font-weight: 400;
   font-size: 16px;
-   line-height: 120%;
+  line-height: 120%;
 }
 
 
@@ -55,38 +56,33 @@ header {
 }
 
 .chevron-back {
-  float: left;
   padding: 20px 0px 0px 20px;
+  float: left;
 }
 
 .bus-station {
-  float: left;
-  padding: 20px 0px 0px 45px;
+  padding: 4px 0px 0px 100px;
   text-align: center;
-  width: 270px;
+  float: left;
 }
 
 .more {
+  padding: 20px 34px 0px 0px;
   float: right;
-  padding: 20px 30px 0px 35px;
-  position: absolute;
 }
 
 .station {
-  float: left;
-  padding: 38px 0px 0px 0px;
+  padding: 55px 0px 0px 20px;
   text-align: left;
 }
 
 .star-favorite {
+  padding: 0px 0px 0px 0px;
   float: right;
-  padding: 13px 8px 0px 0px;
 }
 
 .id {
-  float: left;
-  padding: 10px 0px 0px 35px;
-  width: 270px;
+  padding: 0px 0px 0px 20px;
 }
 
 
@@ -94,43 +90,47 @@ header {
 
 .schedule {
   background-color: #ffffff;
-  padding-bottom: 30px;
+  padding: 0px 0px 30px 0px;
+  width: 376px;
+  float:left;
 }
 
 .direction {
-  padding: 20px 4px 5px 20px;
+  padding: 0px 0px 0px 0px;
+  float:left;
 }
 
 .bus {
-  padding: 17px 0px 0px 20px;
+  padding: 0px 0px 0px 0px;
   height: 65px;
   border-bottom: .75px solid #BDBDBD;
+  float:left;
 }
 
 
 .number {
   border-radius: 12px;
-  background-color: #FFAD0D;
   height: 30px;
   width: 55px;
+  background-color: #FFAD0D;
   color: #ffffff;
   text-align: center;
-  padding: 6px 0px 0px 0px;
-  position: absolute;
-
+  padding: 0px 0px 0px 0px;
+  float:left;
 }
 
 .destination {
-  padding: 0px 0px 0px 70px;
+  padding: 0px 0px 0px 0px;
   text-align: left;
-  position: absolute;
+  float:left;
 }
 
 .time {
-    padding: 1px 0px 0px 228px;
-    position: absolute;
+    padding: 0px 0px 0px 0px;
+    float:right;
 }
 
 .forward {
-    padding: 5px 0px 0px 315px;
+    padding: 0px 0px 0px 0px;
+    float:right;
 }
